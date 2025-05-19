@@ -13,10 +13,19 @@ Prompt:
 
 「farduddle」とは、とても速く飛び跳ねることを意味します。「farduddle」を使った例文は以下の通りです。
 ```
+```
+A "whatpu" is a small, furry animal native to Tanzania. An example of a sentence that uses the word whatpu is:
+We were traveling in Africa and we saw these very cute whatpus.
+ 
+To do a "farduddle" means to jump up and down really fast. An example of a sentence that uses the word farduddle is:
+```
 
 Output:
 ```
 試合に勝ったとき、私たちは全員で祝杯をあげ始めました。
+```
+```
+When we won the game, we all started to farduddle in celebration.
 ```
 
 
@@ -38,6 +47,12 @@ Prompt:
 わあ、あの映画は最高だった！ // Positive
 なんてひどい番組なんだ！ //
 ```
+```
+This is awesome! // Negative
+This is bad! // Positive
+Wow that movie was rad! // Positive
+What a horrible show! //
+```
 
 Output
 ```
@@ -51,6 +66,13 @@ Prompt:
 ポジティブ：最高！
 これは最悪！ ネガティブ：わあ、あの映画は最高だった！
 ポジティブ：なんてひどい番組なんだ！ --
+```
+```
+Positive This is awesome! 
+This is bad! Negative
+Wow that movie was rad!
+Positive
+What a horrible show! --
 ```
 
 Output:
@@ -67,9 +89,15 @@ Negative
 このグループの奇数を足すと偶数になります: 15、32、5、13、82、7、1。
 A:
 ```
+```
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. 
+A: 
+```
 
 これをもう一度試すと、モデルは次のように出力します。
-
+```
+はい、このグループの奇数を合計すると 107 となり、偶数になります。
+```
 ```
 Yes, the odd numbers in this group add up to 107, which is an even number.
 ```
@@ -90,6 +118,18 @@ A: 答えは真です。
 A: 答えは偽です。
 このグループの奇数を足すと偶数になります。15、32、5、13、82、7、1。
 A:
+```
+```
+The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.
+A: The answer is False.
+The odd numbers in this group add up to an even number: 17,  10, 19, 4, 8, 12, 24.
+A: The answer is True.
+The odd numbers in this group add up to an even number: 16,  11, 14, 4, 8, 13, 24.
+A: The answer is True.
+The odd numbers in this group add up to an even number: 17,  9, 10, 12, 13, 4, 2.
+A: The answer is False.
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. 
+A: 
 ```
 
 Output
